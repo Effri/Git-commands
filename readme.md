@@ -367,6 +367,7 @@ git checkout --track origin/github_branch # создать локальную в
 git push origin master     # отправить в удалённый репозиторий (с сокр. именем origin) данные своей ветки master
 git pull origin            # влить изменения с удалённого репозитория (все ветки)
 git pull origin master     # влить изменения с удалённого репозитория (только указанная ветка)
+git push origin --delete <имя_ветки>  # удалить удаленную ветку
 ```
 
 
