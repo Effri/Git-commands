@@ -366,7 +366,7 @@ git fetch origin master    # то же, но скачивается только
 git checkout --track origin/github_branch # создать локальную ветку github_branch (данные взять из удалённого репозитория с сокр. именем origin, ветка github_branch) и переключиться на неё
 git push origin master     # отправить в удалённый репозиторий (с сокр. именем origin) данные своей ветки master
 git push origin <имя_local_ветки>:<имя_remote_ветки>  # отправить в удалённую ветку изменения локальной ветки
-git push origin --delete <имя_ветки>  # удалить удаленную ветку
+git push origin --delete <имя_remote_ветки>  # удалить удаленную ветку
 git push origin :<имя_remote_ветки>  # удалить удаленную ветку (немного костыльный метод)
 git pull origin            # влить изменения с удалённого репозитория (все ветки)
 git pull origin master     # влить изменения с удалённого репозитория (только указанная ветка)
